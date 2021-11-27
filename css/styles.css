@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     padding: 0px;
     margin: 0px;
 }
+/*
+.flexContainer  {
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    text-align: center;
+    color: #672525;
+    padding:7px;
+    border: 1px solid grey;
+}
+*/
+
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    text-align: center;
+    color: #a03838;
+    text-shadow: 2px 2px #67252579;
+    box-shadow: 4px 4px 8px 4px rgba(109, 13, 13, 0.2);
+    margin: 30px;
+    padding-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+img{
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.5);
+    border: none;
+    margin: 15px;
+}
+
+
 
 
